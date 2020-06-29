@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F4BADDA24A9784300B2A748 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4BADD924A9784300B2A748 /* AppDelegate.m */; };
+		5F4BADDD24A9784300B2A748 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4BADDC24A9784300B2A748 /* SceneDelegate.m */; };
+		5F4BADE024A9784300B2A748 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4BADDF24A9784300B2A748 /* ViewController.m */; };
+		5F4BADE324A9784300B2A748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4BADE124A9784300B2A748 /* Main.storyboard */; };
+		5F4BADE524A9784800B2A748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F4BADE424A9784800B2A748 /* Assets.xcassets */; };
+		5F4BADE824A9784800B2A748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4BADE624A9784800B2A748 /* LaunchScreen.storyboard */; };
+		5F4BADEB24A9784800B2A748 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4BADEA24A9784800B2A748 /* main.m */; };
+		5F4BADF524A9784800B2A748 /* SLCardScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4BADF424A9784800B2A748 /* SLCardScrollViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F4BADF124A9784800B2A748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F4BADCD24A9784300B2A748 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F4BADD424A9784300B2A748;
+			remoteInfo = SLCardScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F4BADD524A9784300B2A748 /* SLCardScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLCardScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F4BADD824A9784300B2A748 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F4BADD924A9784300B2A748 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F4BADDB24A9784300B2A748 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5F4BADDC24A9784300B2A748 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5F4BADDE24A9784300B2A748 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F4BADDF24A9784300B2A748 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F4BADE224A9784300B2A748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F4BADE424A9784800B2A748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F4BADE724A9784800B2A748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F4BADE924A9784800B2A748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F4BADEA24A9784800B2A748 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F4BADF024A9784800B2A748 /* SLCardScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLCardScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F4BADF424A9784800B2A748 /* SLCardScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLCardScrollViewUITests.m; sourceTree = "<group>"; };
+		5F4BADF624A9784800B2A748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F4BADD224A9784300B2A748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F4BADED24A9784800B2A748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F4BADCC24A9784300B2A748 = {
+			isa = PBXGroup;
+			children = (
+				5F4BADD724A9784300B2A748 /* SLCardScrollView */,
+				5F4BADF324A9784800B2A748 /* SLCardScrollViewUITests */,
+				5F4BADD624A9784300B2A748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F4BADD624A9784300B2A748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F4BADD524A9784300B2A748 /* SLCardScrollView.app */,
+				5F4BADF024A9784800B2A748 /* SLCardScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F4BADD724A9784300B2A748 /* SLCardScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				5F4BADD824A9784300B2A748 /* AppDelegate.h */,
+				5F4BADD924A9784300B2A748 /* AppDelegate.m */,
+				5F4BADDB24A9784300B2A748 /* SceneDelegate.h */,
+				5F4BADDC24A9784300B2A748 /* SceneDelegate.m */,
+				5F4BADDE24A9784300B2A748 /* ViewController.h */,
+				5F4BADDF24A9784300B2A748 /* ViewController.m */,
+				5F4BADE124A9784300B2A748 /* Main.storyboard */,
+				5F4BADE424A9784800B2A748 /* Assets.xcassets */,
+				5F4BADE624A9784800B2A748 /* LaunchScreen.storyboard */,
+				5F4BADE924A9784800B2A748 /* Info.plist */,
+				5F4BADEA24A9784800B2A748 /* main.m */,
+			);
+			path = SLCardScrollView;
+			sourceTree = "<group>";
+		};
+		5F4BADF324A9784800B2A748 /* SLCardScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F4BADF424A9784800B2A748 /* SLCardScrollViewUITests.m */,
+				5F4BADF624A9784800B2A748 /* Info.plist */,
+			);
+			path = SLCardScrollViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F4BADD424A9784300B2A748 /* SLCardScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F4BADF924A9784800B2A748 /* Build configuration list for PBXNativeTarget "SLCardScrollView" */;
+			buildPhases = (
+				5F4BADD124A9784300B2A748 /* Sources */,
+				5F4BADD224A9784300B2A748 /* Frameworks */,
+				5F4BADD324A9784300B2A748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLCardScrollView;
+			productName = SLCardScrollView;
+			productReference = 5F4BADD524A9784300B2A748 /* SLCardScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F4BADEF24A9784800B2A748 /* SLCardScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F4BADFC24A9784800B2A748 /* Build configuration list for PBXNativeTarget "SLCardScrollViewUITests" */;
+			buildPhases = (
+				5F4BADEC24A9784800B2A748 /* Sources */,
+				5F4BADED24A9784800B2A748 /* Frameworks */,
+				5F4BADEE24A9784800B2A748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F4BADF224A9784800B2A748 /* PBXTargetDependency */,
+			);
+			name = SLCardScrollViewUITests;
+			productName = SLCardScrollViewUITests;
+			productReference = 5F4BADF024A9784800B2A748 /* SLCardScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F4BADCD24A9784300B2A748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = SLL;
+				TargetAttributes = {
+					5F4BADD424A9784300B2A748 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					5F4BADEF24A9784800B2A748 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 5F4BADD424A9784300B2A748;
+					};
+				};
+			};
+			buildConfigurationList = 5F4BADD024A9784300B2A748 /* Build configuration list for PBXProject "SLCardScrollView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F4BADCC24A9784300B2A748;
+			productRefGroup = 5F4BADD624A9784300B2A748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F4BADD424A9784300B2A748 /* SLCardScrollView */,
+				5F4BADEF24A9784800B2A748 /* SLCardScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F4BADD324A9784300B2A748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F4BADE824A9784800B2A748 /* LaunchScreen.storyboard in Resources */,
+				5F4BADE524A9784800B2A748 /* Assets.xcassets in Resources */,
+				5F4BADE324A9784300B2A748 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F4BADEE24A9784800B2A748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F4BADD124A9784300B2A748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F4BADE024A9784300B2A748 /* ViewController.m in Sources */,
+				5F4BADDA24A9784300B2A748 /* AppDelegate.m in Sources */,
+				5F4BADEB24A9784800B2A748 /* main.m in Sources */,
+				5F4BADDD24A9784300B2A748 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F4BADEC24A9784800B2A748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F4BADF524A9784800B2A748 /* SLCardScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F4BADF224A9784800B2A748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F4BADD424A9784300B2A748 /* SLCardScrollView */;
+			targetProxy = 5F4BADF124A9784800B2A748 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F4BADE124A9784300B2A748 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F4BADE224A9784300B2A748 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F4BADE624A9784800B2A748 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F4BADE724A9784800B2A748 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F4BADF724A9784800B2A748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F4BADF824A9784800B2A748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F4BADFA24A9784800B2A748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVX37T7P5Z;
+				INFOPLIST_FILE = SLCardScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.SLCardScrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F4BADFB24A9784800B2A748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVX37T7P5Z;
+				INFOPLIST_FILE = SLCardScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.SLCardScrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F4BADFD24A9784800B2A748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVX37T7P5Z;
+				INFOPLIST_FILE = SLCardScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.SLCardScrollViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SLCardScrollView;
+			};
+			name = Debug;
+		};
+		5F4BADFE24A9784800B2A748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVX37T7P5Z;
+				INFOPLIST_FILE = SLCardScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.SLCardScrollViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SLCardScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F4BADD024A9784300B2A748 /* Build configuration list for PBXProject "SLCardScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F4BADF724A9784800B2A748 /* Debug */,
+				5F4BADF824A9784800B2A748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F4BADF924A9784800B2A748 /* Build configuration list for PBXNativeTarget "SLCardScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F4BADFA24A9784800B2A748 /* Debug */,
+				5F4BADFB24A9784800B2A748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F4BADFC24A9784800B2A748 /* Build configuration list for PBXNativeTarget "SLCardScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F4BADFD24A9784800B2A748 /* Debug */,
+				5F4BADFE24A9784800B2A748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F4BADCD24A9784300B2A748 /* Project object */;
+}
